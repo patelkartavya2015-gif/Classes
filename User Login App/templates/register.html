@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="/User Login App/static/style.css">
+    </head>
+    <body>
+        <div align="center" class="border">
+            <div class="header">
+                <h1 class="word">register</h1>
+            </div>
+
+            <h2 class="word">
+                <form action="/register" method="post">
+                    <div class="msg">{{msg}}</div>
+                    <input type="text" id="username" name="username" placeholder="Please enter your username" class="textbox">
+
+                    <br>
+                    <br>
+
+                    <input type="password" id="password" name="password" placeholder="Pleas enter a safe and memorable Password" class="textbox">
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="email" name="email" placeholder="Please enter your email" class="textbox">
+
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Sign up" class="btn">
+
+                    <br>
+                    <br>
+                </form>
+            </h2>
+
+            <p class="bottom">Already have a account? <a herf="/login" class="button">Login</a></p>
+        </div>
+    </body>
+</html>
